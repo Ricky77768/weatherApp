@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.app_ui);
 
         // Defines data URLs
-        String dataURL = "http://api.openweathermap.org/data/2.5/weather?q=markham&APPID=1d5f8fb5ea2908f45395ceb41dcd1ab9";
-        String forecastURL = "http://api.openweathermap.org/data/2.5/forecast?q=markham&mode=xml&appid=1d5f8fb5ea2908f45395ceb41dcd1ab9";
+        String dataURL = "https://api.openweathermap.org/data/2.5/weather?q=toronto&APPID=1d5f8fb5ea2908f45395ceb41dcd1ab9";
+        String forecastURL = "https://api.openweathermap.org/data/2.5/forecast?q=toronto&mode=xml&appid=1d5f8fb5ea2908f45395ceb41dcd1ab9";
 
         // Starts Downloads and Adding weather Icons
         DownloadFileData downloadFile = new DownloadFileData();
